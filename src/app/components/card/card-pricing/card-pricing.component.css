@@ -1,0 +1,36 @@
+.pricing__container {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  bottom: 0px;
+  left: 0px;
+
+  background: rgba(0,0,0, 0.8);
+
+  display: flex;
+  flex-direction: column;
+  color: antiquewhite;
+
+  font-family: Calibri;
+
+  padding: 10px;
+}
+
+.price_title {
+  margin-bottom: 3px;
+}
+
+.price__value {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price__value__console {
+  display: flex;
+}
+
+.price__value__console > span {
+  font-weight: bolder;
+  color: aqua;
+  margin-right: 4px;
+}
